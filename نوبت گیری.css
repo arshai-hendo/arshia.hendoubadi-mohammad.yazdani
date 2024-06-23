@@ -1,0 +1,120 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+ 
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+ 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+ 
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+ 
+.profile-header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+ 
+.profile-header h1, .profile-header p {
+    margin: 5px 0;
+}
+ 
+.profile-details {
+    margin-top: 20px;
+}
+ 
+.profile-details h2 {
+    color: #007bff;
+}
+ 
+.reviews {
+    list-style: none;
+    padding: 0;
+}
+ 
+.reviews li {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+ 
+.appointments {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ 
+.appointments div {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    text-align: center;
+}
+ 
+.appointments h2 {
+    color: #007bff;
+}
+ 
+.contact-info, .services, .faq {
+    margin-top: 20px;
+}
+ 
+.contact-info h2, .services h2, .faq h2 {
+    color: #007bff;
+}
+ 
+.contact-info p, .services ul, .faq p {
+    margin: 5px 0;
+}
+ 
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+.services ul li {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+ 
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
