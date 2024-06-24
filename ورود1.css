@@ -1,0 +1,186 @@
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 727px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;}
+.main-content {
+  position: relative;
+  width: 546px;
+  height: 496px;
+  margin: 92px 0 0 446px;
+  background: #ffffff;
+  z-index: 1;
+  overflow: visible auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.25);}
+.group {
+  position: relative;
+  width: 7.784px;
+  height: 15.894px;
+  margin: 26px 0 0 29px;
+  background: url(./assets/images/84e4a80b-8034-440e-8015-8204eec38d17.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;}
+.login-to-doctorplus {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 279px;
+  height: 63px;
+  margin: 14.106px 0 0 133px;
+  color: #266b91;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 62.5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 4;}
+.login-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 529px;
+  height: 68px;
+  margin: 46px 0 0 7px;
+  color: #000000;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34.375px;
+  text-align: center;
+  z-index: 3;}
+.flex-row-db {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 440px;
+  height: 54px;
+  margin: 40px 0 0 58px;
+  z-index: 6;}
+.button-rectangle {
+  flex-shrink: 0;
+  position: relative;
+  width: 104px;
+  height: 54px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #aeaeae;
+  z-index: 6;
+  border-radius: 10px;}
+.span-plus {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 38px;
+  top: 10px;
+  left: 25px;
+  color: #000000;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;}
+.div-ellipse {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  top: 10px;
+  left: 69px;
+  background: url(./assets/images/57593d36-237f-4146-8acd-46a013c9e4f3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+  border-radius: 50%;}
+.div-line {
+  position: absolute;
+  width: 10.836px;
+  height: 10.836px;
+  top: 22.5px;
+  left: 4.5px;
+  background: url(./assets/images/aa1b7170-c08a-4ef7-997d-497b6d8f392d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;}
+.line {
+  position: absolute;
+  width: 10.836px;
+  height: 10.836px;
+  top: 22.5px;
+  left: 12.664px;
+  background: url(./assets/images/ffbf1669-42c4-4e26-ba62-d817cd5b9589.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;}
+.rectangle {
+  flex-shrink: 0;
+  position: relative;
+  width: 327px;
+  height: 54px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #aeaeae;
+  z-index: 5;
+  border-radius: 10px;}
+.example {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 38px;
+  top: 7px;
+  left: 80px;
+  color: #d8dbe8;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;}
+.rectangle-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 327px;
+  height: 54px;
+  margin: 51px 0 0 110px;
+  background: #21aae1;
+  z-index: 9;
+  border-radius: 10px;}
+.send-code {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 125px;
+  height: 34px;
+  color: #ffffff;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 9;}
+.div {
+  position: absolute;
+  width: 1442px;
+  height: 729px;
+  top: 0;
+  left: -2px;
+  background: url(./assets/images/381e14cc7f73e3a4353588b66483078250824b06.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(7.5px);}
