@@ -1,0 +1,154 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزرو نوبت</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .appointment-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 400px;
+        }
+        .appointment-container h2 {
+            margin: 0;
+            color: #004080;
+            font-size: 20px;
+        }
+        .doctor-info {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .doctor-info img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+        }
+        .doctor-info div {
+            text-align: left;
+        }
+        .doctor-info div p {
+            margin: 0;
+            color: #333;
+        }
+        .appointment-slots {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .day-column {
+            width: 48px;
+        }
+        .day-column p {
+            margin: 0;
+            background-color: #f4f4f9;
+            padding: 5px 0;
+            border-radius: 5px;
+            color: #333;
+        }
+        .time-slots {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .time-slots button {
+            background-color: #e5f3ff;
+            border: none;
+            color: #0073e6;
+            padding: 5px 0;
+            margin: 3px 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .time-slots button:hover {
+            background-color: #cce4ff;
+        }
+        .reserve-button {
+            background-color: #28a745;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .reserve-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="appointment-container">
+        <h2>انتخاب نوبت ویزیت حضوری مطب دکتر زهرا فلاح</h2>
+        <div class="doctor-info">
+            <img src="doctor.jpg" alt="دکتر زهرا فلاح">
+            <div>
+                <p>دکتر زهرا فلاح</p>
+                <p>یزد، بلوار طالقانی، کوچه هدایتی، بین پست اول طبقه همکف</p>
+            </div>
+        </div>
+        <div class="appointment-slots">
+            <div class="day-column">
+                <p>چهارشنبه</p>
+                <p>30 خرداد</p>
+                <p>9 نوبت</p>
+            </div>
+            <div class="day-column">
+                <p>سه شنبه</p>
+                <p>29 خرداد</p>
+                <p>9 نوبت</p>
+            </div>
+            <div class="day-column">
+                <p>دوشنبه</p>
+                <p>28 خرداد</p>
+                <p>0 نوبت</p>
+            </div>
+            <div class="day-column">
+                <p>یکشنبه</p>
+                <p>27 خرداد</p>
+                <p>9 نوبت</p>
+            </div>
+            <div class="day-column">
+                <p>شنبه</p>
+                <p>26 خرداد</p>
+                <p>9 نوبت</p>
+            </div>
+            <div class="day-column">
+                <p>جمعه</p>
+                <p>25 خرداد</p>
+                <p>0 نوبت</p>
+            </div>
+            <div class="day-column">
+                <p>فردا</p>
+                <p>24 خرداد</p>
+                <p>9 نوبت</p>
+            </div>
+        </div>
+        <div class="time-slots">
+            <button>20:00</button>
+            <button>19:45</button>
+            <button>19:30</button>
+            <button>19:15</button>
+            <button>19:00</button>
+            <button>18:45</button>
+            <button>18:30</button>
+            <button>18:15</button>
+            <button>18:00</button>
+        </div>
+        <button class="reserve-button">رزرو نوبت</button>
+    </div>
+</body>
+</html>
