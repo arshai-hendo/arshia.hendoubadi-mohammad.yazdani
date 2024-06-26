@@ -1,0 +1,179 @@
+.main-container {
+  overflow: hidden;}
+.main-container,
+.main-container * {
+  box-sizing: border-box;}
+button {
+  outline: 0;}
+.main-container {
+  position: relative;
+  width: 360px;
+  height: 650px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;}
+.group {
+  position: relative;
+  width: 7.784px;
+  height: 15.894px;
+  margin: 18px 0 0 20.531px;
+  background: url(./assets/images/10d0eb80-50cd-48a3-aa07-497ca880f1f5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;}
+.dr-plus {
+  position: relative;
+  width: 280px;
+  height: 109px;
+  margin: 24.106px 0 0 40px;
+  background: url(./assets/images/1313aa01fe7e842b05e8940657f7f4154488be4c.png)
+    no-repeat center;
+  background-size: cover;}
+.login-dr-plus {
+  display: block;
+  position: relative;
+  height: 31px;
+  margin: 66px 0 0 107px;
+  color: #266b91;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;}
+.full-access {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 289px;
+  height: 38px;
+  margin: 23px 0 0 35px;
+  color: #000000;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 2;
+  overflow: hidden;}
+.flex-row-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 260px;
+  height: 33px;
+  margin: 48px 0 0 50px;
+  z-index: 13;}
+.rectangle {
+  flex-shrink: 0;
+  position: relative;
+  width: 64px;
+  height: 33px;
+  background: #ffffff;
+  border: 1px solid #aeaeae;
+  z-index: 7;
+  border-radius: 10px;}
+.ellipse {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 6px;
+  left: 42px;
+  background: url(./assets/images/b24bebd0-9e9d-4a93-8cca-2e47ebce2eeb.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+  border-radius: 50%;}
+.plus-98 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 9px;
+  left: 18px;
+  color: #000000;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;}
+.line {
+  position: absolute;
+  width: 7.845px;
+  height: 7.845px;
+  top: 12.568px;
+  left: 1.828px;
+  background: url(./assets/images/93aab4ba-1652-4ca9-8b79-6b81222ed6f0.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;}
+.line-1 {
+  position: absolute;
+  width: 7.845px;
+  height: 7.845px;
+  top: 12.568px;
+  left: 6.877px;
+  background: url(./assets/images/39c33571-8d51-443e-af81-71249c2e0472.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;}
+.button {
+  flex-shrink: 0;
+  position: relative;
+  width: 194px;
+  height: 33px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #aeaeae;
+  z-index: 13;
+  border-radius: 10px;}
+.example {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 4px;
+  left: 38px;
+  color: #d8dbe8;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;}
+.rectangle-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 327px;
+  height: 54px;
+  margin: 179px 0 0 16px;
+  background: #21aae1;
+  z-index: 5;
+  border-radius: 10px;}
+.send-code {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 125px;
+  height: 34px;
+  color: #ffffff;
+  font-family: Vazirmatn, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;}
