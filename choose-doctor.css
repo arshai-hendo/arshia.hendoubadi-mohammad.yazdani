@@ -1,0 +1,217 @@
+body{
+    direction: rtl;
+    margin: 0;
+    width: 100%;
+    background-color: #C1DCFB;
+}
+p{
+    margin: 0 !important;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 90px;
+    align-items: center;
+    padding: 0 1rem;
+}
+.header-options{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+}
+.search-box{
+    height: 400px;
+    background-image: url('images/Rectangle\ 3.svg');
+}
+
+.enter button{
+    background-color: #266B91;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 7rem;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 ;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.right{
+    width: 58%;
+    height: 1500px;
+}
+.left{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1500px;
+}
+.base-info{
+    height: 20rem;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.base-info img{
+    width: 150px;
+    height: 150px;
+}
+.physical , .phone-appointment{
+    height: 15rem;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.physical .title{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+.phone-appointment .title{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+.physical .title h2{
+    color: #0AA4E2;
+}
+.phone-appointment .title h2{
+    color: #12C22E;
+}
+.address{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+p {
+    font-size: 18px;
+}
+.physical p{
+    font-size: 14px;
+}
+.pairs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 1rem;
+}
+.physical button, .phone-appointment button{
+    width: 80%;
+    height: 2.5rem;
+    background-color: #0AA4E2;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 17px;
+}
+.phone-appointment button{
+    background-color: #12C22E;
+}
+.price{
+    width: 20%;
+    background-color: #21aae196;
+    height: 2rem;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #266B91
+}
+.contact-info{
+    background: #fff;
+    padding: 0 2rem;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20rem;
+}
+.contact-info h2{
+    color: #266B91;
+}
+.rate{
+    height: 30rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 32px;
+}
+
+.description{
+    height: 900px;
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 5rem;
+    border-radius: 32px;
+    height: 1035px;
+}
+
+
+
+
+
+
+
+.footer{
+    height: 400px;
+    background-color: #266B91;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 24%;
+}
+.items{
+    color: #fff;
+}
+.social {
+    justify-content: center !important;
+}
+.with-you{
+    justify-content: flex-start;
+    padding-top: 1rem;
+}
+.with-you .items, .social .items{
+    padding: 1rem 0;
+}
+
+.footer-img{
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
